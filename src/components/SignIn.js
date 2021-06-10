@@ -1,7 +1,7 @@
 import React from 'react';
 import GoogleAuth from './GoogleAuth';
 
-const Header = () => {
+const SignIn = () => {
   return (
     <div style={{ textAlign: 'right', paddingRight: '8%' }}>
       <GoogleAuth />
@@ -9,4 +9,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default SignIn;
